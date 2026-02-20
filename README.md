@@ -10,3 +10,17 @@ Students must categorize their 15 test cases per program as follows:
 - **Negative Testing:** Attempting to force an error (e.g., debiting more than balance).
 - **Black-Box:** Testing based on requirements (input/output) without viewing code.
 - **White-Box:** Testing specific `if/else` paths within the source files.
+
+
+How to Push to your GitHub (Week 10 Syntax)
+Following your Week 10 slides for the "Simple Git Workflow":
+
+git init
+
+git add .
+
+git commit -m "Initial commit for Week 5 Automation Lab"
+
+git remote add origin <your-repo-url>
+
+git push -u origin main
